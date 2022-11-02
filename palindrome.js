@@ -11,6 +11,6 @@ function checkForPalindrome(s) {
   if (s == s.split("").reverse().join("")) {
     console.log(s, "is a Palindrome");
   } else {
-    console.log(s, "not a Palindrome");
+    console.log(s, "is not a Palindrome");
   }
 }
